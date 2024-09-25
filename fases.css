@@ -1,0 +1,183 @@
+body{
+    max-width: 960px;
+    border: solid 200px rgb(19, 0, 19);
+    margin: auto;
+    min-height: 1000px;
+}
+
+
+
+.f1{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.f2{
+    display: flex;
+justify-content:center;
+}
+
+.f3{
+    display: flex;
+    justify-content:space-around;
+}
+
+.f4{
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.f5{
+    display: flex;
+        align-items: flex-end;
+}
+
+.f6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f7{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.f8{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.f9{
+    display: flex;
+    flex-direction: column;
+}
+
+.f10{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.f11{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end
+}
+
+.f12{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+.f13{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.f14{
+    display: flex;
+
+}
+
+.f14 .color1{
+    order: 1;
+}
+
+.f15{
+    display: flex;
+}
+
+.f15 .color2{
+    order: -3;
+}
+
+.f16{
+    display: flex;
+    align-items: flex-start;
+}
+
+.f16 .color1{
+    align-self: flex-end;
+}
+
+.f17{
+    display: flex;
+    align-items: flex-start;
+}
+
+.f17 .color1{
+    order: 2;
+    align-self: flex-end;
+}
+
+.f18{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.f19{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.f20{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.f21{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.f22{
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+.f23{
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: center;
+}
+
+.f24{
+    height: 600px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    align-content: space-between;
+
+}
+
+.color{
+    border: 10px solid green;
+    border-radius: 100%;
+}
+
+.color1{
+    border: 10px solid yellow;
+    border-radius: 100%;
+}
+
+.color2{
+    border: 10px solid red;
+    border-radius: 100%;
+}
